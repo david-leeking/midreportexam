@@ -65,7 +65,7 @@
 * `main.h`：存放自動生成的 User Label 巨集 (`led_green_Pin`, `buzz_Pin`, `button_Pin` 等)。
 
 ## 8. 實作照片：每張附一行圖說
-![圖片說明](IMG_0910.HEIC)
+![圖片說明](狀態1)
 *(圖說：NUCLEO-G474RE 開發板與麵包板三色燈號、蜂鳴器及 EXTI 按鈕完整接線與運行畫面)*
 
 ## 9. AI 使用說明：哪段請 AI、你怎么查核
