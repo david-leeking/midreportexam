@@ -61,7 +61,7 @@
 ## 7. 程式結構：哪個檔做什麼、ISR 與主迴圈分工
 * `main.c`：
   * **主迴圈 (`while(1)`)**：運行非阻塞式狀態機 (`switch-case`)，依據 `HAL_GetTick()` 判斷時間差來切換燈號與閃爍頻率。
-  * **中斷服務函數 (`HAL_GPIO_EXTI_Callback`)**：處理 `button_Pin` (`PC13`) 的外部中斷，負責即時攔截並強制將狀態重置為 `STATE_GREEN`。
+  * **中斷服務函數 (`HAL_GPIO_EXTI_Callback`)**：處理 `button_Pin` (`PA9`) 的外部中斷，負責即時攔截並強制將狀態重置為 `STATE_GREEN`。
 * `main.h`：存放自動生成的 User Label 巨集 (`led_green_Pin`, `buzz_Pin`, `button_Pin` 等)。
 
 ## 8. 實作照片：每張附一行圖
