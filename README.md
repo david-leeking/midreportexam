@@ -72,7 +72,7 @@
 ## 狀態3:紅燈閃爍外加蜂鳴器發出聲響，代表危急
 ![圖片說明](狀態3)
 ## FSM(狀態圖)
-![圖片說明](images.png)
+![圖片說明](Gemini_Generated_Image_b4mo43b4mo43b4mo.jpg)
 
 
 ## 9. AI 使用說明：哪段請 AI、你怎麼查核
